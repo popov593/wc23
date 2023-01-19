@@ -1,8 +1,16 @@
 .site-header {
-    padding: 0;
-    max-width: 1200px;
+    background: #FFF;
+    border: 0;
+    box-shadow: none;
+    height: 61px;
 }
-.site-header .custom-header .site-branding .custom-logo {
+
+.custom-header {
+    background: none;
+    padding: 0 !important;
+}
+
+.custom-header .site-branding .custom-logo {
     min-width: 162px !important;
 }
 .main-navigation .menu .menu-item > a {
@@ -12,17 +20,29 @@
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
-    color: #374A59;
+    color: #374A59 !important;
+    border: 0;
 }
 .main-navigation .menu .menu-item > a:hover {
-    color: #E1795E;
+    color: #E1795E !important;
 }
 .main-navigation .menu .menu-item.current-menu-item > a {
     color: inherit;
     font-weight: 700;
+    border: 0;
 }
 .main-navigation .menu {
-    padding: 13px 0;
+    padding: 10px 0;
+}
+
+.main-navigation .menu .menu-item:focus, .main-navigation .menu .menu-item:focus-within, .main-navigation .menu .menu-item:hover, .main-navigation .menu .menu-item.menu-item-has-children.focus, .main-navigation .menu .menu-item.menu-item-has-children:focus-within, .main-navigation .menu .menu-item.menu-item-has-children:hover, .main-navigation .menu .menu-item.menu-item-has-children>a:focus, .main-navigation .menu .menu-item.menu-item-has-children>a:hover {
+    background: none !important;
+}
+
+.main-navigation .sub-menu {
+    background: #FFF;
+    border: 1px solid;
+    width: 14rem;
 }
 /* cyrillic-ext */
 @font-face {
