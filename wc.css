@@ -1049,18 +1049,63 @@ p {
 }
 
 /** iPad Pro 12.9 - 1366px **/
-@media screen and (max-width: 1366px) {
-
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1024px !important;
+    }
+    .halfwidth__container .left {
+        margin-left: 0;
+    }
+    .halfwidth__container>div {
+        flex: 0 0 44% !important;
+    }
+    .halfwidth__container .right {
+        margin: 0;
+    }
+    .container.halfwidth__container.d-flex {
+        gap: 100px;
+    }
 }
 
 /** iPad Pro - 1024px **/
 @media screen and (max-width: 1024px) {
-
+    .container {
+        max-width: 1000px !important;
+    }
+    .halfwidth__container .left {
+        margin-left: 0;
+    }
+    .halfwidth__container>div {
+        flex: 0 0 44% !important;
+    }
+    .halfwidth__container .right {
+        margin: 0;
+    }
+    .container.halfwidth__container.d-flex {
+        gap: 100px;
+    }
 }
 
 /** iPad  - 768px **/
-@media screen and (max-width: 768px) and (min-width: 608px) {
-
+@media screen and (max-width: 900px) and (min-width: 608px) {
+    .container {
+        max-width: 730px !important;
+    }
+    .halfwidth__container .left {
+        margin-left: 0;
+    }
+    .halfwidth__container>div {
+        flex: 0 0 40% !important;
+    }
+    .halfwidth__container .right {
+        margin: 0;
+    }
+    .container.halfwidth__container.d-flex {
+        gap: 100px;
+    }
+    .session__row>div {
+        flex: 0 0 47%;
+    }
 }
 
 /** Phone  - 607px **/
