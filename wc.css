@@ -368,7 +368,7 @@ p {
 .orange__button {
     padding: 16px 24px;
     gap: 10px;
-    width: 155px;
+    width: max-content;
     height: 52px;
     background: #FD7A5C;
     border: 1.5px solid #000000;
@@ -380,7 +380,6 @@ p {
     line-height: 19px;
     text-transform: uppercase;
     color: #000000;
-    text-decoration: none;
     text-decoration: none;
     display: block;
 }
