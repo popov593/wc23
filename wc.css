@@ -56,15 +56,6 @@ span.toggle-text {
 .hero__container {
     align-items: center;
 }
-.hero__container h1 {
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
-    text-transform: uppercase;
-    color: #374A59;
-}
 .hero__container .right .d-flex {
     gap: 20px;
     flex-wrap: wrap;
@@ -112,6 +103,59 @@ span.toggle-text {
 }
 .hero__container .left {
     position: relative;
+}
+.entry-content {
+    position: relative;
+}
+.halfwidth__container:after {
+    position: absolute;
+    position: absolute;
+    background: #FFEDE9;
+    content: '.';
+    font-size: #FFEDE9;
+    /* top: 0; */
+    height: 650px;
+    z-index: 1;
+    width: 50%;
+    display: block;
+    left: 0;
+    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+.halfwidth__container {
+    flex-wrap: wrap;
+}
+.halfwidth__container .left {
+    z-index: 2;
+    margin-left: 100px;
+    margin-top: 68px;
+    position: relative;
+}
+.halfwidth__container>div {
+    flex: 0 0 44%;
+}
+.halfwidth__container .right {
+    margin-left: 42px;
+}
+.halfwidth__container img {
+    position: relative;
+    z-index: 3;
+}
+.halfwidth__container .left:before {
+    position: absolute;
+    background: #226664;
+    content: '.';
+    top: 27px;
+    height: 456px;
+    width: 100%;
+    display: block;
+    right: -13px;
+    border-radius: 10px;
+}
+
+.halfwidth__container .right h2 {
+    margin-top: 100px !important;
+    margin-bottom: 13px !important;
 }
 /** V Archive Page **/
 
@@ -161,6 +205,33 @@ button.wp-block-button__link.no-border-radius {
     color: #000 !important;
 }
 /** X Other **/
+h1 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #374A59;
+}
+h2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #374A59;
+    margin: 0 !important;
+}
+p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #374A59;
+}
 .container {
     width: 1200px !important;
     max-width: 1200px !important;
