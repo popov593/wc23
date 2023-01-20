@@ -381,6 +381,8 @@ p {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
+    text-decoration: none;
+    display: block;
 }
 
 .orange__button:hover {
@@ -1115,7 +1117,47 @@ p {
 
 /** Phone  - 607px **/
 @media screen and (max-width: 607px) {
+    .container {
+        width: 100% !important;
+        padding: 15px;
+    }
 
+    .d-flex {
+        display: block;
+    }
+
+    .hero__container>div {
+        margin-bottom: 20px;
+    }
+
+    .wp-block-spacer {
+        height: 20px !important;
+    }
+
+    .halfwidth__container .left {
+        margin: 0;
+    }
+
+    .halfwidth__container .left:before {
+        height: 370px;
+    }
+
+    .halfwidth__container:after {
+        display: none;
+    }
+
+    .single__person img {
+        width: 95%;
+    }
+
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .session__row>div {
+        margin-bottom: 40px;
+    }
 }
 
 /** Old Phone  - 380px **/
