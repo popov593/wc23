@@ -218,6 +218,50 @@ span.toggle-text {
     color: #FFF;
     background:#226664;
 }
+
+.session__row>div {
+    flex: 0 0 48%;
+    position: relative;
+}
+.session__row {
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.single__session {
+    background: #FFFFFF;
+    border: 2px solid #226664;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 17px;
+    position: relative;
+    z-index: 10;
+    display: block;
+}
+.session__row .left:after, .session__row .right:after {
+    position: absolute;
+    background: #226664;
+    content: '.';
+    color: #226664;
+    height: 100%;
+    width: calc(100% - 20px);
+    left: 20px;
+    /* margin-right: -20px; */
+    border-radius: 10px;
+    z-index: 0;
+    bottom: -17px;
+}
+.session__row h3 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #374A59;
+    margin: 20px 0 10px 0 !important;
+    margin-top: 20px;
+}
 /** V Archive Page **/
 
 /** VI Product Pages **/
@@ -302,6 +346,17 @@ p {
     font-size: 16px;
     line-height: 19px;
     color: #374A59;
+}
+.container-fluid {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.colored__bgr {
+    background: #FFEDE9;
+}
+.container-fluid>.container {
+    margin: auto;
+    padding: 90px 0;
 }
 .container {
     width: 1200px !important;
