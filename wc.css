@@ -50,7 +50,69 @@ span.toggle-text {
 /** III Menus **/
 
 /** IV Page and Posts Content **/
-
+.hero__container>div {
+    flex: 0 0 50%;
+}
+.hero__container {
+    align-items: center;
+}
+.hero__container h1 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #374A59;
+}
+.hero__container .right .d-flex {
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.ksp p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #374A59;
+}
+.ksp {
+    border-right: 1px solid #374A59;
+    padding-right: 20px;
+}
+.ksp h4 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #374A59;
+    margin: 12px 0 0 0;
+}
+.hero__container .left img {
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+}
+.hero__container .left:before {
+    position: absolute;
+    background: #226664;
+    content: '.';
+    bottom: -17px;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    display: block;
+    right: -13px;
+    border-radius: 10px;
+}
+.hero__container .left {
+    position: relative;
+}
 /** V Archive Page **/
 
 /** VI Product Pages **/
@@ -99,6 +161,36 @@ button.wp-block-button__link.no-border-radius {
     color: #000 !important;
 }
 /** X Other **/
+.container {
+    width: 1200px !important;
+    max-width: 1200px !important;
+}
+.d-flex {
+    display: flex;
+}
+.orange__button {
+    padding: 16px 24px;
+    gap: 10px;
+    width: 155px;
+    height: 52px;
+    background: #FD7A5C;
+    border: 1.5px solid #000000;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.orange__button:hover {
+    color: #FFF;
+    background:#226664;
+}
+
 
 /* cyrillic-ext */
 @font-face {
