@@ -1050,6 +1050,11 @@ p {
 
 /** iPad Pro 12.9 - 1366px **/
 @media screen and (max-width: 1200px) {
+    .header-inner {
+        width: 100% !important;
+        margin: auto !important;
+        text-align: center;
+    }
     .container {
         max-width: 1024px !important;
     }
