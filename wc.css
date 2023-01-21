@@ -6,7 +6,9 @@
 body:not(.overlay-header) .primary-menu ul {
     background: #FFF;
 }
-
+header#site-header {
+    z-index: 10;
+}
 body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
     color: #000;
 }
