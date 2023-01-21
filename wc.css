@@ -262,6 +262,41 @@ span.toggle-text {
     margin: 20px 0 10px 0 !important;
     margin-top: 20px;
 }
+div#sponsors {
+    text-align: center;
+}
+.three__blocks__inner>div {
+    flex: 0 0 31%;
+}
+.three__blocks__inner {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.single__sponsor img {
+    width: 371px;
+    height: 371px;
+    object-fit: contain;
+}
+.single__sponsor {
+    border: 2px solid #226664;
+    border-radius: 10px;
+}
+.four__blocks__inner {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.four__blocks__inner>div {
+    flex: 0 0 23%;
+}
+.four__blocks__inner .single__sponsor img {
+    height: 150px;
+}
+#sponsors .orange__button {
+    margin: 30px auto 0 auto;
+}
+
 /** V Archive Page **/
 
 /** VI Product Pages **/
