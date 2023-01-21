@@ -3,6 +3,13 @@
 /** I Top Bar  **/
 
 /** II Header **/
+body:not(.overlay-header) .primary-menu ul {
+    background: #FFF;
+}
+
+body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
+    color: #000;
+}
 header.entry-header.has-text-align-center.header-footer-group {
     display: none;
 }
