@@ -314,6 +314,26 @@ div#sponsors {
     font-size: 16px;
     line-height: 19px;
 }
+.footer-inner.section-inner {
+    padding: 60px 0;
+}
+.footer-widgets-outer-wrapper {
+    border: 0 !important;
+    box-shadow: none;
+}
+.footer-widgets-wrapper {
+    align-items: center;
+}
+.footer-widgets p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
 .footer-nav-widgets-wrapper.header-footer-group {
     background: #226664;
 }
@@ -1191,6 +1211,9 @@ p {
 
     .session__row>div {
         margin-bottom: 40px;
+    }
+    .single__sponsor {
+        margin-bottom: 30px;
     }
 }
 
