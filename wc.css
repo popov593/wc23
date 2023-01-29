@@ -307,10 +307,14 @@ div#sponsors {
 }
 
 /** not home **/
-body:not(.home) .entry-content, body:not(.page-id-401) .entry-content {
+body:not(.home) .entry-content {
     width: 1200px !important;
     max-width: 1200px !important;
     margin: auto;
+}
+body.page-id-401 .entry-content {
+    width: 100% !important;
+    max-width: 100% !important;
 }
 body:not(.home) .wp-block-heading {
     text-align: center;
