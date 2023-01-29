@@ -307,7 +307,7 @@ div#sponsors {
 }
 
 /** not home **/
-body:not(.home) .entry-content {
+body:not(.home) .entry-content, body:not(.page-id-401) .entry-content {
     width: 1200px !important;
     max-width: 1200px !important;
     margin: auto;
