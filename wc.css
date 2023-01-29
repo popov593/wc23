@@ -306,6 +306,19 @@ div#sponsors {
     margin: 30px auto 0 auto;
 }
 
+/** not home **/
+.page:not(.home) .entry-content {
+    width: 1200px !important;
+    max-width: 1200px !important;
+    margin: auto;
+}
+.page:not(.home) .wp-block-heading {
+    text-align: center;
+    max-width: 58rem;
+    width: calc(100% - 4rem);
+    margin: auto !important;
+}
+
 /** V Archive Page **/
 
 /** VI Product Pages **/
