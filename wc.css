@@ -331,7 +331,7 @@ body:not(.home) .wp-block-heading {
     text-decoration: none !important;
 }
 
-body:not(.home) .blog__entries .wp-block-post-template.is-flex-container.is-flex-container.columns-3>li:nth-of-type(n+4) {
+.home .blog__entries .wp-block-post-template.is-flex-container.is-flex-container.columns-3>li:nth-of-type(n+4) {
     display: none;
 }
 
