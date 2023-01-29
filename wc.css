@@ -465,6 +465,38 @@ p {
     color: #FFF;
     background:#226664;
 }
+ul, li, label, input, select, text, textarea {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #374A59;
+}
+
+button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link {
+    padding: 16px 24px;
+    gap: 10px;
+    width: max-content;
+    height: 52px;
+    background: #FD7A5C;
+    border: 1.5px solid #000000;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+
+.color-accent, .color-accent-hover:hover, .color-accent-hover:focus, :root .has-accent-color, .has-drop-cap:not(:focus):first-letter, .wp-block-button.is-style-outline, a {
+    color: #374A59;
+}
+
 
 
 /* cyrillic-ext */
