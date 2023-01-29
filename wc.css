@@ -307,12 +307,12 @@ div#sponsors {
 }
 
 /** not home **/
-.page:not(.home) .entry-content {
+body:not(.home) .entry-content {
     width: 1200px !important;
     max-width: 1200px !important;
     margin: auto;
 }
-.page:not(.home) .wp-block-heading {
+body:not(.home) .wp-block-heading {
     text-align: center;
     max-width: 58rem;
     width: calc(100% - 4rem);
