@@ -1296,6 +1296,33 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
     .single__sponsor {
         margin-bottom: 30px;
     }
+    .halfwidth__container>.left {
+        order: 2;
+        display: flex;
+        flex: 1 1 100% !important;
+    }
+    .halfwidth__container>.right {
+        order: 1;
+        display: flex;
+        flex: 1 1 100% !important;
+        flex-wrap: wrap;
+    }
+    .container.halfwidth__container.d-flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 30px;
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+
+    .halfwidth__container>.right>* {
+        flex: 1 1 100%;
+    }
+
+    .halfwidth__container>.right>h2 {
+        margin-top: 0px !important;
+    }
 }
 
 /** Old Phone  - 380px **/
