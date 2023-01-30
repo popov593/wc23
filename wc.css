@@ -312,7 +312,7 @@ body:not(.home) .entry-content {
     max-width: 1200px !important;
     margin: auto;
 }
-body.page-id-401 .entry-content, body.page-id-453 .entry-content {
+body.page-id-401 .entry-content, body.page-id-453 .entry-content, body.page-id-455 .entry-content {
     width: 100% !important;
     max-width: 100% !important;
 }
