@@ -1313,7 +1313,9 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
         width: 100%;
         gap: 30px;
         margin-bottom: 90px;
-        margin-top: 90px;
+    }
+    .blog__entries {
+        margin-bottom: 70px !important;
     }
 
     .halfwidth__container>.right>* {
