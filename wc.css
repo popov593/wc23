@@ -444,8 +444,8 @@ p {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 1.476;
     color: #374A59;
 }
 .container-fluid {
