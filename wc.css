@@ -1252,6 +1252,32 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
 
 /** Phone  - 607px **/
 @media screen and (max-width: 607px) {
+    
+    .blog__entries [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 100%;
+}
+
+.blog__entries .wp-block-group__inner-container, .entry-content .wp-block-group p {
+    width: 100% !important;
+}
+
+.blog__entries .wp-block-group__inner-container {
+    max-width: 308px !important;
+    margin: 0 !important;
+}
+
+.blog__entries ul.is-flex-container.columns-3.wp-block-post-template.is-layout-flow {
+    display: block !important;
+}
+
+.blog__entries ul.is-flex-container.columns-3.wp-block-post-template.is-layout-flow {
+    display: block !important;
+}
+
+.wp-block-post-template.is-flex-container li {
+    max-width: 378px;
+    margin-bottom: 20px;
+}
     table.tix_tickets_table.tix-tickets-list {
         max-width: 100% !important;
         display: table-caption;
