@@ -1252,8 +1252,13 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
 
 /** Phone  - 607px **/
 @media screen and (max-width: 607px) {
+    table.tix_tickets_table.tix-tickets-list {
+        max-width: 100% !important;
+        display: table-caption;
+    }
     .container {
         width: 100% !important;
+        max-width: 100% !important;
         padding: 15px;
     }
 
