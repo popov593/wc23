@@ -1262,6 +1262,12 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
 
 /** Phone  - 607px **/
 @media screen and (max-width: 607px) {
+    body:not(.home) .entry-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: auto;
+    }
+    
         .post .entry-content {
     max-width: 100% !important;
     width: 100% !important;
