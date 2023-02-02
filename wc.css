@@ -1262,7 +1262,16 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
 
 /** Phone  - 607px **/
 @media screen and (max-width: 607px) {
-    
+        .post .entry-content {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.post .entry-content > * {
+    max-width: 100% !important;
+    margin: 15px;
+    width: 378px !important;
+}
     .blog__entries [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
     max-width: 100%;
 }
