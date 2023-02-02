@@ -1230,6 +1230,16 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
 
 /** iPad  - 768px **/
 @media screen and (max-width: 900px) and (min-width: 608px) {
+    .post .entry-content {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.post .entry-content > * {
+    max-width: 100% !important;
+    margin: 15px;
+    width: 378px !important;
+}
     .container {
         max-width: 730px !important;
     }
