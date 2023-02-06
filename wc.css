@@ -1223,94 +1223,6 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
 
 /** Vipe Studio CSS **/
 
-/* Mobile-first breakpoints */
-@media (min-width: 640px) {
-    .d-flex {
-        flex-wrap: nowrap;
-    }
-
-    .halfwidth__container.d-flex {
-        gap: 164px;
-    }
-
-    .halfwidth__container>div {
-        flex-basis: 0;
-    }
-
-    .halfwidth__container:after {
-        position: absolute;
-        background: #FFEDE9;
-        content: '';
-        font-size: #FFEDE9;
-        height: 650px;
-        max-height: 110%;
-        z-index: 1;
-        width: 50%;
-        display: block;
-        left: 0;
-        top: 0;
-        bottom: -32px;
-        border-radius: 0px 10px 10px 0px;
-    }
-
-    .halfwidth__container .left {
-        order: 1;
-        margin-top: 68px;
-    }
-
-    .halfwidth__container .right {
-        order: 2;
-        margin-top: 0;
-    }
-
-    .halfwidth__container .right h2 {
-        margin-top: 100px !important;
-    }
-
-    .hero__container>div {
-        margin-bottom: 0;
-        flex-basis: 50%;
-    }
-}
-
-@media (min-width: 768px) {
-    
-}
-
-
-@media (min-width: 1024px) {
-    .wp-block-post-template.is-flex-container > li {
-        width: auto !important;
-        flex: 1 0 0;
-    }
-}
-
-
-@media (min-width: 1280px) {
-    .container {
-        padding: 0;
-    }
-
-    .halfwidth__container .left {
-        margin-left: 100px;
-    }
-
-    .halfwidth__container.d-flex {
-        gap: 64px;
-    }
-
-    .ksp {
-        border-right: 1px solid #374A59;
-        padding-right: 20px;
-        flex-basis: auto;
-    }
-}
-
-
-@media (min-width: 1536px) {
-
-}
-
 /* Random fixes */
 /* Buttons */
 input[type="submit"],
@@ -1365,6 +1277,12 @@ button[type="submit"]:hover {
     border-width: 2px !important;
 }
 
+/* Comments */
+.comment-respond p.comment-notes,
+.comment-respond p.logged-in-as {
+    margin: 1rem 0 2rem;
+}
+
 /* Tickets */
 .tix_tickets_table th,
 .tix_tickets_table td {
@@ -1382,8 +1300,108 @@ button[type="submit"]:hover {
     padding: .5rem 1rem;
 }
 
-/* Comments */
-.comment-respond p.comment-notes,
-.comment-respond p.logged-in-as {
-    margin: 1rem 0 2rem;
+/* Tickets mobile table hack */
+@media (max-width: 768px) {
+    .tix_tickets_table thead tr {
+        display: none;
+    }
+
+    .tix_tickets_table tbody tr {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .tix_tickets_table tbody .tix-column-description {
+        flex: 1 0 100%;
+    }
+
+    .tix_tickets_table tbody .tix-column-price,
+    .tix_tickets_table tbody .tix-column-quantity,
+    .tix_tickets_table tbody .tix-column-remaining {
+        flex: 1 0 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Mobile-first breakpoints */
+@media (min-width: 640px) {
+    .d-flex {
+        flex-wrap: nowrap;
+    }
+
+    .halfwidth__container.d-flex {
+        gap: 164px;
+    }
+
+    .halfwidth__container>div {
+        flex-basis: 0;
+    }
+
+    .halfwidth__container:after {
+        position: absolute;
+        background: #FFEDE9;
+        content: '';
+        font-size: #FFEDE9;
+        height: 650px;
+        max-height: 110%;
+        z-index: 1;
+        width: 50%;
+        display: block;
+        left: 0;
+        top: 0;
+        bottom: -32px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .halfwidth__container .left {
+        order: 1;
+        margin-top: 68px;
+    }
+
+    .halfwidth__container .right {
+        order: 2;
+        margin-top: 0;
+    }
+
+    .halfwidth__container .right h2 {
+        margin-top: 100px !important;
+    }
+
+    .hero__container>div {
+        margin-bottom: 0;
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1024px) {
+    .wp-block-post-template.is-flex-container > li {
+        width: auto !important;
+        flex: 1 0 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        padding: 0;
+    }
+
+    .halfwidth__container .left {
+        margin-left: 100px;
+    }
+
+    .halfwidth__container.d-flex {
+        gap: 64px;
+    }
+
+    .ksp {
+        border-right: 1px solid #374A59;
+        padding-right: 20px;
+        flex-basis: auto;
+    }
 }
