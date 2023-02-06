@@ -1254,6 +1254,19 @@ button[type="submit"]:hover {
 }
 
 /* Header */
+@media (max-width: 1000px) {
+    .header-titles-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .header-titles-wrapper > .search-toggle,
+    .header-titles-wrapper > .nav-toggle {
+        position: static;
+    }
+}
+
 .header-titles {
     margin: 0;
 }
