@@ -1315,6 +1315,10 @@ button[type="submit"]:hover {
 
 /* Tickets mobile table hack */
 @media (max-width: 768px) {
+    .tix_tickets_table {
+        border: 0;
+    }
+
     .tix_tickets_table thead tr {
         display: none;
     }
@@ -1323,6 +1327,10 @@ button[type="submit"]:hover {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
+    }
+
+    .tix_tickets_table tbody tr + tr .tix-column-description {
+        margin-top: 32px;
     }
 
     .tix_tickets_table tbody .tix-column-description {
