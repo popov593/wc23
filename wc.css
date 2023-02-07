@@ -28,7 +28,7 @@ header.entry-header.has-text-align-center.header-footer-group {
     transition: none !important;
 }
 .primary-menu a {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -75,8 +75,9 @@ span.toggle-text {
 .ksp {
     flex-basis: 100%;
 }
+
 .ksp p {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -85,10 +86,10 @@ span.toggle-text {
     color: #374A59;
 }
 .ksp h4 {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 41px;
     text-transform: uppercase;
     color: #374A59;
@@ -197,7 +198,7 @@ span.toggle-text {
     width: 123px;
     border: 1.5px solid #000000;
     border-radius: 10px;
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -248,7 +249,7 @@ span.toggle-text {
     bottom: -17px;
 }
 .session__row h3 {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -340,6 +341,10 @@ body:not(.home) .wp-block-heading {
     max-width: none !important;
 }
 
+.wp-block-post-template h2 {
+    font-size: 20px;
+}
+
 /** VI Product Pages **/
 
 /** VII Product Archives **/
@@ -349,7 +354,7 @@ body:not(.home) .wp-block-heading {
 /** IX Footer **/
 .site-info a {
     color: #374A59;
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -366,7 +371,7 @@ body:not(.home) .wp-block-heading {
     align-items: center;
 }
 .footer-widgets p {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 34px;
@@ -407,7 +412,7 @@ button.wp-block-button__link.no-border-radius {
 }
 /** X Other **/
 h1 {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -416,7 +421,7 @@ h1 {
     color: #374A59;
 }
 h2 {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 34px;
@@ -426,7 +431,7 @@ h2 {
     margin: 0 !important;
 }
 h3 {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -436,7 +441,7 @@ h3 {
     margin: 0 !important;
 }
 p {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -471,7 +476,7 @@ p {
     background: #FD7A5C;
     border: 1.5px solid #000000;
     border-radius: 10px;
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -487,7 +492,7 @@ p {
     background:#226664;
 }
 ul, li, label, input, select, text, textarea {
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -503,7 +508,7 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
     background: #FD7A5C;
     border: 1.5px solid #000000;
     border-radius: 10px;
-    font-family: 'Noto Sans';
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1249,6 +1254,11 @@ button[type="submit"]:hover {
 }
 
 /* General */
+.container.hero__container h1 {
+    word-break: normal;
+    font-size: 42px;
+}
+
 .container.hero__container .right:first-child {
     padding-right: 20px;
 }
@@ -1424,5 +1434,10 @@ button[type="submit"]:hover {
         border-right: 1px solid #374A59;
         padding-right: 20px;
         flex-basis: auto;
+    }
+
+    .ksp:last-child {
+        border-right: 0;
+        padding-right: 0;
     }
 }
