@@ -1255,10 +1255,6 @@ button[type="submit"]:hover {
     font-size: 42px;
 }
 
-.container.hero__container .right:first-child {
-    padding-right: 20px;
-}
-
 /* Header */
 @media (max-width: 1000px) {
     .header-titles-wrapper {
@@ -1363,7 +1359,7 @@ button[type="submit"]:hover {
     }
 
     .halfwidth__container.d-flex {
-        gap: 164px;
+        gap: 96px;
     }
 
     .halfwidth__container>div {
@@ -1404,6 +1400,10 @@ button[type="submit"]:hover {
         margin-bottom: 0;
         flex-basis: 50%;
     }
+
+    .container.hero__container .right:first-child {
+        padding-right: 40px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -1423,7 +1423,7 @@ button[type="submit"]:hover {
     }
 
     .halfwidth__container.d-flex {
-        gap: 64px;
+        gap: 96px;
     }
 
     .ksp {
