@@ -103,46 +103,51 @@ span.toggle-text {
 .hero__container .left {
     position: relative;
 }
-.entry-content {
-    position: relative;
-}
-.halfwidth__container {
-    position: relative;
-    flex-wrap: wrap;
-}
-.halfwidth__container .left {
-    position: relative;
-    z-index: 2;
-    margin-top: 44px;
-    order: 2;
-}
 
 .hero__container .left img {
     box-shadow: 16px 16px 0 0 #226664;
 }
 
-.halfwidth__container .left img {
+.entry-content {
+    position: relative;
+}
+
+.halfwidth__container {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.halfwidth__container > div {
+    flex: 1 0 100%;
+}
+
+.halfwidth__container > .left {
+    order: 2;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-top: 44px;
+}
+
+.halfwidth__container > .left img {
     width: 100%;
     box-shadow: 32px 16px 0 0 #226664;
 }
 
-.halfwidth__container>div {
-    flex: 1 0 100%;
+.halfwidth__container > .right {
+    order: 1;
 }
+
+.halfwidth__container .right h2 {
+    margin-bottom: 13px !important;
+}
+
 .halfwidth__container img {
     position: relative;
     z-index: 3;
     object-fit: cover;
     border-radius: 20px;
      max-height: 470px;
-}
-
-.halfwidth__container .right {
-    order: 1;
-}
-
-.halfwidth__container .right h2 {
-    margin-bottom: 13px !important;
 }
 
 .post .entry-content {
@@ -1207,22 +1212,13 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
     .session__row>div {
         margin-bottom: 40px;
     }
+
     .single__sponsor {
         margin-bottom: 30px;
     }
-    .halfwidth__container>.left {
-        display: flex;
-    }
-    .halfwidth__container>.right {
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     .blog__entries {
         margin-bottom: 70px !important;
-    }
-
-    .halfwidth__container>.right>* {
-        flex: 1 1 100%;
     }
 }
 
@@ -1358,6 +1354,10 @@ button[type="submit"]:hover {
 
 /* Mobile-first breakpoints */
 @media (min-width: 640px) {
+    
+}
+
+@media (min-width: 768px) {
     .d-flex {
         flex-wrap: nowrap;
     }
@@ -1400,14 +1400,10 @@ button[type="submit"]:hover {
         margin-top: 100px !important;
     }
 
-    .hero__container>div {
+    .hero__container > div {
         margin-bottom: 0;
         flex-basis: 50%;
     }
-}
-
-@media (min-width: 768px) {
-    
 }
 
 @media (min-width: 1024px) {
