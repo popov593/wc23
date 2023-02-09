@@ -96,7 +96,7 @@ span.toggle-text {
     margin: 12px 0 0 0;
 }
 .hero__container .left img {
-    border-radius: 5px;
+    border-radius: 20px;
     z-index: 2;
     position: relative;
 }
@@ -131,7 +131,7 @@ span.toggle-text {
 
 .halfwidth__container > .left img {
     width: 100%;
-    box-shadow: 32px 16px 0 0 #226664;
+    box-shadow: 16px 16px 0 0 #226664;
 }
 
 .halfwidth__container > .right {
