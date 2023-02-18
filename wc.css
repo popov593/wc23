@@ -319,7 +319,6 @@ body:not(.home) .wp-block-heading {
 }
 
 .blog__entries .wp-block-group.is-layout-flow h2 a {
-    margin-bottom: 10px;
     text-decoration: none !important;
 }
 
